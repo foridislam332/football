@@ -1,7 +1,52 @@
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     header {
         flex-direction: column;
         padding: 26px;
+        height: auto;
     }
 
+    .btn {
+        margin-bottom: 50px;
+    }
+
+    .banner_image img {
+        margin-bottom: 61px;
+    }
+
+    .banner_info h1 {
+        margin-right: 82px;
+    }
+
+    .players_sec .players {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .womens {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .women {
+        width: 467px;
+        height: 400px;
+    }
+
+    .news_images {
+        width: auto;
+    }
+
+    .nwes_wrap {
+        flex-direction: column;
+    }
+
+    .news_content {
+        width: auto;
+    }
+
+    .footer_logo {
+        margin-top: 54px;
+    }
+
+    .copywrite p {
+        margin-bottom: 187px;
+    }
 }
